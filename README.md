@@ -8,7 +8,7 @@
 
 ## About the project
 
-- This project simulates simple conversations (or chat) between Server and many Clients
+- This project simulates simple conversations (or chat) between **Server** and several **Clients**.
 - **Keyword**: _Java FX (controls, layout, file fxml, scene builder, observable collections), MVC model, Java I/O, stream, Socket programming, TCP, multi-thread_.
 
 ## Functional description
@@ -33,6 +33,7 @@ The user inferface from Client app should have below features:
 The user inferface from Server App consists of:
 - A window to display all clients successfully connected to server (in the form of a list view)
 - On double click on a specific item in list of connected clients, a "Chat with ..." window will pop up and ready for conversation.
+- Server app can handle several Clients at a time.
 
 ![Server UI](/res/image/server_ui.png)
 
@@ -42,9 +43,8 @@ The user inferface from Server App consists of:
 
 The demo video can be seen via: https://www.youtube.com/watch?v=yHUbeNsygFM
 
-<img src="https://drive.google.com/uc?id=1rfJTO16l1qxLQaRx7BG1BbffMTFApWFN"/>
 
-[![](https://drive.google.com/uc?export=view&id=1rfJTO16l1qxLQaRx7BG1BbffMTFApWFN)](https://www.youtube.com/watch?v=yHUbeNsygFM)
+[![](/res/image/demo.gif)](https://www.youtube.com/watch?v=yHUbeNsygFM)
 
 
 ## Further enhancement
