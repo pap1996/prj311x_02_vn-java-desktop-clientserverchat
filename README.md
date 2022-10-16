@@ -22,7 +22,7 @@ The user inferface from Client app should have below features:
 - Text field to get input and `Send` button to send
 - On clicking `Connect` button, the button will be greyed out if successful connection established (and ready to chat with server). Otherwise, an alert window will pop up
 
-![Client Interface](/res/image/client_ui.png)   
+![Client Interface](/res/image/client_ui.png)    
 
 
 |![Client Interface](/res/image/client_ui_disconnected.png)  |![Client Interface](/res/image/client_ui_connected.png)|
