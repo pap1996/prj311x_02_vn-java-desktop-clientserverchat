@@ -42,7 +42,9 @@ The user inferface from Server App consists of:
 
 The demo video can be seen via: https://www.youtube.com/watch?v=yHUbeNsygFM
 
-[![](/res/image/prj311x_02_vn-java-desktop-clientserverchat.gif)](https://www.youtube.com/watch?v=yHUbeNsygFM)
+<img src="https://drive.google.com/uc?export=view&id=1rfJTO16l1qxLQaRx7BG1BbffMTFApWFN"/>
+
+[![](https://drive.google.com/uc?export=view&id=1rfJTO16l1qxLQaRx7BG1BbffMTFApWFN)](https://www.youtube.com/watch?v=yHUbeNsygFM)
 
 
 ## Further enhancement
