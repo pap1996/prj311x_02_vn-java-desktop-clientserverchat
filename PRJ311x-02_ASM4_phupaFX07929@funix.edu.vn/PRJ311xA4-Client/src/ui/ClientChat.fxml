@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="490.0" prefWidth="453.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ClientChatController">
+    <center>
+        <AnchorPane>
+            <children>
+                <TextArea fx:id="txtContent" editable="false" prefHeight="332.0" prefWidth="440.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                </TextArea>
+            </children>
+         <BorderPane.margin>
+            <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+         </BorderPane.margin>
+        </AnchorPane>
+    </center>
+
+    <top>
+        <GridPane nodeOrientation="LEFT_TO_RIGHT" vgap="5.0">
+            <children>
+                <FlowPane hgap="8" prefHeight="200" prefWidth="200" vgap="5.0">
+                    <children>
+                        <Label prefWidth="65" text="HostIP" />
+                        <TextField fx:id="txtHostIP" text="127.0.0.1" />
+                        <Label text="Port" />
+                        <TextField fx:id="txtPort" text="1234" />
+                    </children>
+                </FlowPane>
+
+
+                <FlowPane hgap="8" prefHeight="200" prefWidth="200" GridPane.rowIndex="1">
+                    <children>
+                        <Label prefWidth="65" text="Username" />
+                        <TextField fx:id="txtUsername" text="Ha" />
+                        <Button fx:id="btnConnect" mnemonicParsing="false" onAction="#btnConnectActionPerformed" text="Connect" />
+                    </children>
+                </FlowPane>
+
+<!--                <FlowPane hgap="8" prefHeight="200" prefWidth="200" GridPane.rowIndex="2" >-->
+<!--                    <children>-->
+<!--                        <Label prefWidth="65" text="Attachment" />-->
+<!--                        <TextField fx:id="txtAttachment" editable="false" prefHeight="26.0" prefWidth="302.0" />-->
+<!--                        <Button fx:id="Attach" mnemonicParsing="false" onAction="#btnAttachmentPerformed" text="Attach" />-->
+<!--                    </children>-->
+<!--                </FlowPane>-->
+            </children>
+
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints />
+         </rowConstraints>
+            <effect>
+                <Blend />
+            </effect>
+         <BorderPane.margin>
+            <Insets left="8.0" top="8.0" />
+         </BorderPane.margin>
+        </GridPane>
+    </top>
+
+    <bottom>
+        <FlowPane hgap="10" prefHeight="106.0" prefWidth="446.0" vgap="10" BorderPane.alignment="TOP_LEFT">
+            <children>
+                <TextField fx:id="txtMessage" prefHeight="100" prefWidth="378.0" />
+                <Button fx:id="btnSend" mnemonicParsing="false" onAction="#btnSendActionPerformed" text="Send" />
+            </children>
+         <BorderPane.margin>
+            <Insets bottom="8.0" left="8.0" />
+         </BorderPane.margin>
+        </FlowPane>
+    </bottom>
+
+</BorderPane>
