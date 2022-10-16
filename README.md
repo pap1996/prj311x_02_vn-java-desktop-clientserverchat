@@ -16,8 +16,11 @@ The project consists of 2 components:
 1. **Client app:**
 - The user inferface from Client app should have below features:
 
+| ![Client Interface](/res/image/client_ui.png)   |![Client Interface](/res/image/client_ui_disconnected.png)  |![Client Interface](/res/image/client_ui_connected.png)|
+| :------------- | :------------- | :------------- |
 
-|![Client Interface](/res/image/client_ui.png) | ![Client Interface](/res/image/client_ui_disconnected.png)|![Client Interface](/res/image/client_ui_connected.png)</div>|
+
+
 
 
 
