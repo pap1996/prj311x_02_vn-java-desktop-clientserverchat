@@ -31,14 +31,20 @@ The user inferface from Client app should have below features:
 
 2. **Server app:**
 The user inferface from Server App consists of:
-- A window to display all clients successfully connected to server
+- A window to display all clients successfully connected to server (in the form of a list view)
+- On double click on a specific item in list of connected clients, a "Chat with ..." window will pop up and ready for conversation.
 
+![Server UI](/res/image/server_ui.png)
 
 
 
 ## Demo
 
-The demo video can be seen via: https://www.youtube.com/watch?v=GB74eQVRANo
+The demo video can be seen via: https://www.youtube.com/watch?v=yHUbeNsygFM
+
+[![](/res/image/prj311x_02_vn-java-desktop-clientserverchat.gif)](https://www.youtube.com/watch?v=yHUbeNsygFM)
 
 
 ## Further enhancement
+- Add the feature that helps to send file
+- Add the feature to save conversations into a flat file and allow user to choose location to save
