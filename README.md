@@ -14,12 +14,24 @@
 ## Functional description
 The project consists of 2 components:
 1. **Client app:**
-- The user inferface from Client app should have below features:
+The user inferface from Client app should have below features:
+- Text fields to connect to server such `host ip`, `port`
+- `Username` of the client participating in the chat with **Server**
+- `Connect` button to establish connection to **Server**
+- Text area for displaying lines of messages
+- Text field to get input and `Send` button to send
+- On clicking `Connect` button, the button will be greyed out if successful connection established (and ready to chat with server). Otherwise, an alert window will pop up
 
-| ![Client Interface](/res/image/client_ui.png)   |![Client Interface](/res/image/client_ui_disconnected.png)  |![Client Interface](/res/image/client_ui_connected.png)|
-| :------------- | :------------- | :------------- |
+![Client Interface](/res/image/client_ui.png)   
 
 
+|![Client Interface](/res/image/client_ui_disconnected.png)  |![Client Interface](/res/image/client_ui_connected.png)|
+| :------------- | :------------- |
+| If server don't avail, an alert will appear| If connection is successfully established|
+
+2. **Server app:**
+The user inferface from Server App consists of:
+- A window to display all clients successfully connected to server
 
 
 
